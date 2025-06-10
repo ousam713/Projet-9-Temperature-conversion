@@ -1,0 +1,70 @@
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+
+}
+
+/* container <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#container{
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+#logo{
+    text-align: center;
+    color: tomato;
+    font-size: 2em;
+    justify-self: center;
+    margin: 0 auto -20px auto ;
+}
+
+#inputField{
+    margin: 1em auto 1.5em auto ;
+    display: flex;
+    padding: 5px 5px 5px 5px;
+}
+
+#btn{
+    display: flex;
+    margin: 1em auto 1em auto;
+    padding: 6px 7em;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.Radio{
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(255, 121, 98);
+    cursor: pointer;
+}
+
+/* #resultSpan{
+
+} */
+
+#deg{
+    margin-left: -40px;
+    display: none;
+}
+
+#result{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 auto 0 auto;
+}
+
+/* container >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
